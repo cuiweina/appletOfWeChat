@@ -1,0 +1,5 @@
+<view class="container">
+<view wx:if="{{view=='cui'}}"cui></view>
+<view wx:elif="{{view=='wei'}}">wei</view>
+<view wx:else="{{view=='na'}}">na</view>
+</view>

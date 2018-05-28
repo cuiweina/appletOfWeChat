@@ -1,6 +1,7 @@
 {
   "pages":[
     "pages/index/index",
+    "pages/detail/detail",
     "pages/logs/logs"
   ],
   "window":{
@@ -8,5 +9,17 @@
     "navigationBarBackgroundColor": "#fff",
     "navigationBarTitleText": "WeChat",
     "navigationBarTextStyle":"black"
+  },
+  "tabBar": {
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页"
+      },
+      {
+        "pagePath": "pages/detail/detail",
+        "text": "详情"
+      }
+    ]
   }
 }
