@@ -11,14 +11,21 @@
     "navigationBarTextStyle":"black"
   },
   "tabBar": {
+    "color": "#999999",
+    "selectedColor": "#000",
+    "backgroundColor": "#fff",
     "list": [
       {
         "pagePath": "pages/index/index",
-        "text": "首页"
+        "text": "首页",
+        "iconPath":"images/icon/tabIcon1.png",
+        "selectedIconPath":"images/icon/tabIcon1_on.png"
       },
       {
         "pagePath": "pages/detail/detail",
-        "text": "详情"
+        "text": "详情",
+        "iconPath": "images/icon/tabIcon2.png",
+        "selectedIconPath": "images/icon/tabIcon2_on.png"
       }
     ]
   }
