@@ -1,13 +1,12 @@
-<!--index.wxml-->
-<view class="container">
-  <view class="userinfo">
-    <button wx:if="{{!hasUserInfo && canIUse}}" open-type="getUserInfo" bindgetuserinfo="getUserInfo"> 获取头像昵称 </button>
-    <block wx:else>
-      <image bindtap="bindViewTap" class="userinfo-avatar" src="{{userInfo.avatarUrl}}" background-size="cover"></image>
-      <text class="userinfo-nickname">{{userInfo.nickName}}</text>
-    </block>
-  </view>
-  <view class="usermotto">
-    <text class="user-motto">{{motto}}</text>
+<view class="content">
+  <view class="main">
+    <view class="banner-box">活动图</view>
+    <view class="activity-area">
+      <navigator url="../detail/qualifying/qualifying" class="qualifying-box">排位赛</navigator>
+      <navigator url="../detail/rankingList/rankingList" class="rank-box">排行榜</navigator>
+    </view>
+    <navigator url="../detail/study/study" class="study-box">学习专区
+      <image src="../../images/icon/tabIcon2_on.png"></image>
+    </navigator>
   </view>
 </view>

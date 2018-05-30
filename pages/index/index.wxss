@@ -1,21 +1,39 @@
-/**index.wxss**/
-.userinfo {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+.content {
+  margin: 0 10rpx;
 }
 
-.userinfo-avatar {
-  width: 128rpx;
-  height: 128rpx;
-  margin: 20rpx;
-  border-radius: 50%;
+.banner-box {
+  width: 100%;
+  height: 250rpx;
+  background-color: #ff0;
 }
 
-.userinfo-nickname {
-  color: #aaa;
+.activity-area {
+  overflow: hidden;
 }
 
-.usermotto {
-  margin-top: 200px;
+.qualifying-box {
+  float: left;
+  width: 350rpx;
+  height: 400rpx;
+  background-color: #f00;
+}
+
+.rank-box {
+  float: right;
+  width: 350rpx;
+  height: 400rpx;
+  background-color: #0f0;
+}
+
+.study-box {
+  width: 750rx;
+  height: 300rpx;
+  background-color: #00f;
+}
+.study-box image{
+  display: block;
+  width:60px;
+  height: 60px;
+  margin: 15px auto 0;
 }

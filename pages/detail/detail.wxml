@@ -1,5 +1,0 @@
-<!-- <view wx:for="{{array}}">
-  {{index}}:{{item.message}}
-</view>
-<switch></switch> -->
-<web-view src="http://med.wanfangdata.com.cn/Paper/Search?q=%E4%B8%B4%E5%BA%8A&p=1"></web-view>
