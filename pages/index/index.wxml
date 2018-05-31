@@ -1,4 +1,7 @@
 <view class="content">
+  <view class="rotate-box" style="width:750rpx;text-align:center;">
+    <image src="../../images/icon/tabIcon1_on.png" style="width:64rpx;height:64rpx"></image>
+  </view>
   <view class="main">
     <view class="banner-box">活动图</view>
     <view class="activity-area">
