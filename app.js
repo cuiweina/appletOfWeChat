@@ -2,6 +2,7 @@
 var http = require('service/http.js');
 var util = require('service/util.js');
 App({
+  scene:1096,
   onLaunch: function () {
     // 展示本地存储能力
     var logs = wx.getStorageSync('logs') || []
@@ -19,9 +20,9 @@ App({
     userInfo: null
   },
   //注册成为全局函数
-  rquestInterface: {
-    req: http.req
-  },
+  // rquestInterface: {
+  //   req: http.req
+  // },
   resetIamgeUtil: {
     imageUtil: util.imageUtil
   }

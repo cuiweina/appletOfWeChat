@@ -1,0 +1,12 @@
+<!--pages/theme/theme.wxml-->
+<view class="container">
+  <block >
+    <view class="item" wx:for="{{theme}}">
+      <image src="{{item.thumbnail}}"></image>
+      <view class="title-box">
+          <text class="title">{{item.name}}</text>
+          <text class="description">{{item.description}}</text>
+      </view>
+    </view>
+  </block>
+</view>

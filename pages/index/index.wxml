@@ -1,15 +1,24 @@
-<view class="content">
-  <view class="rotate-box" style="width:750rpx;text-align:center;">
-    <image src="../../images/icon/tabIcon1_on.png" style="width:64rpx;height:64rpx"></image>
+ <view class="container">
+  <swiper indicator-dots="true" autoplay="true" class="banners">
+    <block wx:for="{{banner}}">
+      <swiper-item class="banner">
+        <image src="{{item.image}}" data-id="{{item.id}}" bindtap="bindViewTap"></image>
+        <text class="banner-title">{{item.title}}</text>
+      </swiper-item>
+    </block>
+  </swiper>
+  <view class="news-box">
+    <block wx:for="{{list}}" wx:for-index="id">
+      <text wx:if="{{item.header}}" class="sub-title">{{item.header}}</text>
+      <navigator wx:else url="../detail/detail?id={{item.id}}">
+        <view class="news-item">
+          <view class="news-title">{{item.title}}</view>
+          <view class="news-image">
+            <image src="{{item.images}}"></image>
+          </view>
+        </view>
+      </navigator>
+    </block>
+   <button class="more" bindtap="loadMore" loading="{{loading}}">更多</button>
   </view>
-  <view class="main">
-    <view class="banner-box">活动图</view>
-    <view class="activity-area">
-      <navigator url="../detail/qualifying/qualifying" class="qualifying-box">排位赛</navigator>
-      <navigator url="../detail/rankingList/rankingList" class="rank-box">排行榜</navigator>
-    </view>
-    <navigator url="../detail/study/study" class="study-box">学习专区
-      <image src="../../images/icon/tabIcon2_on.png"></image>
-    </navigator>
-  </view>
-</view>
+</view> 

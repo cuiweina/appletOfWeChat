@@ -1,54 +1,64 @@
-.content {
-  margin: 0 10rpx;
-}
-
-.banner-box {
+.banners {
   width: 100%;
-  height: 250rpx;
-  background-color: #ff0;
+  height: 370rpx;
 }
 
-.activity-area {
-  overflow: hidden;
+.banner image {
+  width: 100%;
+  height: 100%;
 }
 
-.qualifying-box {
-  float: left;
-  width: 350rpx;
-  height: 400rpx;
-  background-color: #f00;
+.banner-title {
+  position: absolute;
+  left: 0;
+  bottom: 30px;
+  width: 100%;
+  padding: 0 50rpx;
+  font-size: 16px;
+  color: #fff;
 }
 
-.rank-box {
-  float: right;
-  width: 350rpx;
-  height: 400rpx;
-  background-color: #0f0;
+.news-box {
+  padding: 0 10px;
 }
 
-.study-box {
-  width: 750rx;
-  height: 300rpx;
-  background-color: #00f;
+.news-item {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 8px;
+  padding: 8px;
+  background-color: #fff;
+  border: 1px solid #eaeaea;
+  border-bottom: 1px solid #d0d0d0;
+  border-radius: 5px;
 }
 
-.study-box image {
-  display: block;
-  width: 60px;
-  height: 60px;
-  margin: 15px auto 0;
+.news-title {
+  font-size: 16px;
 }
 
-@keyframes ratetion {
-  from {
-    transform: rotateZ(0deg);
-  }
-
-  to {
-    transform: rotateZ(360deg);
-  }
+.news-image {
+  width: 80px;
+  height: 80px;
 }
 
-.rotate-box image {
-  animation: ratetion 2s linear infinite;
+.news-image image {
+  width: 80px;
+  height: 100%;
+}
+
+.sub-title {
+  color: #76787e;
+  line-height: 36px;
+  font-size: 14px;
+}
+
+.more {
+  margin: 16px 6px;
+  padding: 0;
+  line-height: 2.3;
+  font-size: 13px;
+  color: #fff;
+  background-color: #179b16;
 }

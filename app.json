@@ -1,15 +1,30 @@
 {
   "pages": [
     "pages/index/index",
-    "pages/detail/qualifying/qualifying",
-    "pages/detail/rankingList/rankingList",
-    "pages/detail/study/study"
+    "pages/theme/theme",
+    "pages/detail/detail"
   ],
   "window": {
     "backgroundTextStyle": "light",
-    "navigationBarBackgroundColor": "#fff",
-    "navigationBarTitleText": "万方医学挑战赛",
-    "navigationBarTextStyle": "black"
+    "navigationBarBackgroundColor": "#00a2ea",
+    "navigationBarTitleText": "知乎日报",
+    "navigationBarTextStyle": "white"
+  },
+  "tabBar": {
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "iconPath": "images/icon-index.png",
+        "selectedIconPath": "images/icon-index-selected.png",
+        "text": "主页"
+      },
+      {
+        "pagePath": "pages/theme/theme",
+        "iconPath": "images/icon-detail.png",
+        "selectedIconPath": "images/icon-detail-selected.png",
+        "text": "主题日报"
+      }
+    ]
   },
   "subPackages": []
 }

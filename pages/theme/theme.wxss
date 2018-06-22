@@ -1,0 +1,25 @@
+/* pages/theme/theme.wxss */
+
+.item {
+  width: 750rpx;
+  margin: 8px 0;
+  background-color: #fff;
+}
+
+.item image {
+  width: 100%;
+}
+
+.title-box {
+  padding: 0 16px 10px;
+}
+
+.title-box  .title {
+  display: block;
+  line-height: 1.6;
+  font-size: 16px;
+}
+
+.title-box .description {
+  font-size: 14px;
+}
